@@ -78,11 +78,10 @@ class Page1 extends StatelessWidget {
         Text('https://github.com/flutter/flutter/issues/138395'),
         Text('https://github.com/flutter/flutter/issues/144768'),
         SizedBox(height: 60),
-        Text('Reproducibility 100%'),
         Text('Priority: Critical'),
         Text('flutter: 3.19.3'),
         Text('iPad Pro 11 (3rd gen)'),
-        Text('iOS 17.0.1'),
+        Text('iOS 17.4.1'),
         Text('keyboard: japanese - Romaji'),
       ],
     );
@@ -94,12 +93,17 @@ class BugScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Center(
+    return Center(
       child: Column(
         children: <Widget>[
-          SizedBox(height: 100),
-          Text('TextField issue'),
-          SizedBox(width: 400, child: TextField()),
+          const SizedBox(height: 100),
+          const Text('TextField issue'),
+          const SizedBox(width: 400, child: TextField()),
+          const SizedBox(height: 50),
+          ElevatedButton(
+            onPressed: () {},
+            child: const Text('Test button'),
+          ),
         ],
       ),
     );
