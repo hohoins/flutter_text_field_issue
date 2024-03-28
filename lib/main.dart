@@ -75,14 +75,13 @@ class Page1 extends StatelessWidget {
       children: <Widget>[
         SizedBox(height: 60),
         Text('flutter TextField BUG'),
+        Text('https://github.com/flutter/flutter/issues/145751'),
         Text('https://github.com/flutter/flutter/issues/138395'),
         Text('https://github.com/flutter/flutter/issues/144768'),
         SizedBox(height: 60),
-        Text('Priority: Critical'),
-        Text('flutter: 3.19.3'),
+        Text('flutter: 3.19.4'),
         Text('iPad Pro 11 (3rd gen)'),
         Text('iOS 17.4.1'),
-        Text('keyboard: japanese - Romaji'),
       ],
     );
   }
